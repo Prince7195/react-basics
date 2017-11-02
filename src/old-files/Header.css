@@ -1,0 +1,36 @@
+.Header-logo {
+    animation: Header-logo-spin infinite 1s linear;
+    height: 50px;
+    float: left;
+}
+
+.Header-logo-name {
+    float: left;
+    padding-top: 0.5%;
+    font-size: 1.5em;
+    margin-left: -0.5%
+}
+
+.logo-container {
+    padding: 0.5em;
+    margin-left: -0.5%;
+    margin-top: 0.1%;
+}
+
+.Header-intro {
+    font-size: large;
+}
+
+.navbar-container {
+    margin-top: -0.7%;
+    margin-left: 2%;
+}
+
+@keyframes Header-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
